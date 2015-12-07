@@ -1,5 +1,5 @@
 language: ruby
-cache: bundler
+# cache: bundler
 sudo: false
 
 rvm:
@@ -10,14 +10,11 @@ script: bundle exec jekyll build
 
 branches:
   only:
-  - gh-pages     # test the gh-pages branch
-
-
-before_script: bundle update
+  - gh-pages
 
 notifications:
   email:
     on_success: change
     on_failure: change
 
-# after_success
+# after_success: ./_scripts/push-from-assets-repository-to-styles-repository.sh
