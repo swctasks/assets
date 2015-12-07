@@ -1,20 +1,16 @@
 language: ruby
 cache: bundler
 sudo: false
-
 rvm:
-  - "2.1.1-github"
-
+- 2.1.1-github
 script: bundle exec jekyll build
-
-
 branches:
   only:
   - gh-pages
-
 notifications:
   email:
     on_success: change
     on_failure: change
-
-after_success: ./scripts/push-from-assets-to-styles.sh
+after_success: "./scripts/push-from-assets-to-styles.sh"
+dd:
+  secure: i4759WaCe1+QQLw8j1uHoOmordRzRuz+swnVa8uCbLgryNWtNRFeKav5R0F1yaLRw3SIv8l6VDrzDYEWhW4JOYvNQ8q7/sxcBXuK3ujaZTHxsTr5wYrv+hdYqunlR4plZeKMP8YntgjAjGxLleJNrbfw4G1EK9PeNvp2xMQx2PODpFPBLdtsV5kIBRdAif4s4M/e+fCaqOKBnZmINljVqiAmTgm9jOl+X8LU521TJuf/DFrdMFEzfMZpfgJXfYfz2idW3Bs0/bJuc+G1UTh229YZA1IHuMyFzsnJ7ljDLyLfx6K7ujG3bcH939IpMUlutlIFkz0LfihayrXBkwVZf3u8oOvw4NWLQmdqHtzt3fj4GGn0XdlKmASJN9tA+WCnPBytNga9gXOFV4sGvQXoJZNFVHBO7Ktf1dNaHtRWo3TTT0yf5MUonfTnC9bKuyRtF3H+NYrfuRvM08KeawUhsORGHmnA5X0Ejw3oA+EfF/+QXyYd2D+7hQ5F/N3ZByAJW03ICFz0WE2rXdSPd3O76VhYm4O7ZPwVmP7TWySDhGttRpRLcSwyffyRHt01dlClj8dsweH44YMqeb05H0+SIVi2m4sJ4IXz7m0WUbFhcMGdqJj/bi/5aCwz1L/wN6cwg4MXwoWiJ9s6134+KuiA4zxVrZWlzqcuvF8nXxry76w=
