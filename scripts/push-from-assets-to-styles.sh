@@ -25,7 +25,7 @@ if [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then
 
   #using token clone gh-pages branch
   # please note that some output is redirected to /dev/null to avoid leaking of decrypted token.
-  git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/swctasks/styles.git  styles # > /dev/null
+  git clone --branch=gh-pages https://${GH_TOKEN}@github.com/swctasks/styles.git  styles # > /dev/null
 
   #go into directory and copy data we're interested in to that directory
   cd styles
