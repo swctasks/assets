@@ -7,7 +7,7 @@ set -ev
 echo TRAVIS_TEST_RESULT : $TRAVIS_TEST_RESULT
 
 # test if the build is not from a pull request
-if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+if [ "$TRAVIS_PULL_REQUEST" == false ]; then
   echo -e "Starting to update script repository with an assets repository build result\n"
 
   #copy data we're interested in to other place
