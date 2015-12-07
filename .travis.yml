@@ -17,4 +17,4 @@ notifications:
     on_success: change
     on_failure: change
 
-# after_success: ./_scripts/push-from-assets-repository-to-styles-repository.sh
+after_success: ./_scripts/push-from-assets-repository-to-styles-repository.sh
