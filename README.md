@@ -1,5 +1,7 @@
 # Software Carpentry assets
 
+[![Build Status](https://travis-ci.org/swctasks/assets.svg?branch=gh-pages)](https://travis-ci.org/swctasks/assets)
+
 Serving assets (js, css, img) for Software Carpentry and Data Carpentry ecosystem.
 
 ## CSS
