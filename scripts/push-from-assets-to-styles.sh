@@ -1,8 +1,10 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # The -e flag causes the script to exit as soon as one command returns a non-zero exit code
 # The -v flag makes the shell print all lines in the script before executing them, which helps identify which steps failed.
 set -ev
+
+echo TRAVIS_TEST_RESULT : $TRAVIS_TEST_RESULT
 
 # test if the build is not from a pull request
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
