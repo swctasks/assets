@@ -5,6 +5,7 @@
 set -ev
 
 echo TRAVIS_TEST_RESULT : $TRAVIS_TEST_RESULT
+echo TRAVIS_PULL_REQUEST = $TRAVIS_PULL_REQUEST
 
 # test if the build is not from a pull request
 if [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then
@@ -26,7 +27,7 @@ if [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then
   # please note that some output is redirected to /dev/null to avoid leaking of decrypted token.
   git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/swctasks/styles.git  styles # > /dev/null
 
-  #go into diractory and copy data we're interested in to that directory
+  #go into directory and copy data we're interested in to that directory
   cd styles
   cp -Rf $HOME/assets/* .
 
