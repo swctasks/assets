@@ -26,29 +26,3 @@ permalink: /index.html
   </div>
 </div>
 
-<div class="row">
-  <div class="medium-8 columns">
-    <h3>Recent Blog Posts</h3>
-    {% include list-posts entries='10' %}
-  </div>
-  <div class="medium-4 columns">
-    <h3>Upcoming Workshops</h3>
-    <table class="table table-striped workshops">
-      {% for w in site.data.amy.workshops_current reversed %}
-      <tr>
-	<td>
-	  <img src="{{site.filesurl}}/flags/{{site.flag_size}}/{{w.country | downcase}}.png" title="{{w.country | replace: '-', ' '}}" alt="{{w.country | replace: '-', ' ' | downcase}}" />
-	  <a href="{{w.url}}">{{w.venue}}</a>
-	  <br/>
-	  {{w.humandate}}
-	</td>
-      </tr>
-      {% endfor %}
-      <tr>
-	<td>
-	  <em><a href="{{site.baseurl}}/workshops/">See more...</a></em>
-	</td>
-      </tr>
-    </table>
-  </div>
-</div>
