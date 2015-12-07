@@ -1,5 +1,23 @@
 language: ruby
+cache: bundler
+sudo: false
+
 rvm:
   - "2.1.1-github"
 
 script: bundle exec jekyll build
+
+
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
+
+
+before_script: bundle update
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+# after_success
