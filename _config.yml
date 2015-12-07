@@ -35,7 +35,7 @@ author: gvwilson
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://dev.software-carpentry.org'
+url: 'http://swctasks.github.io/assets/'
 baseurl: ''
 
 # This URL is the base for referenced files.
