@@ -27,47 +27,12 @@ baseurl: ''
 
 # This URL is the base for referenced files.
 filesurl: '/files'
-
-# Software Carpentry-specific configuration values.
-# FIXME: eliminate some of these (duplicate social media information)
-amy_url         : "https://amy.software-carpentry.org/workshops"
-board_inquiries : "board-inquiries@software-carpentry.org"
-contact         : "admin@software-carpentry.org"
-dc_url          : "http://datacarpentry.org"
-facebook_url    : "https://www.facebook.com/SoftwareCarpentry"
-github_url      : "https://github.com/swcarpentry"
-github_io_url   : "http://swcarpentry.github.io"
-paypal_url      : "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MYSDWRR8HWFR6"
-linkedin_url    : "https://www.linkedin.com/grp/home?gid=8279689"
-rss_url         : "http://software-carpentry.org/feed.xml"
-twitter_name    : "@swcarpentry"
-twitter_url     : "https://twitter.com/swcarpentry"
-msl_url         : "http://mozillascience.org"
-store_url       : "http://www.cafepress.com/swcarpentry"
-mailing_lists   : "http://lists.software-carpentry.org"
-flag_size       : 16
-
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-# improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
-
-# This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash at the end.
-#
-# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-#
 urlimg: '/files/'
 
 # Logo image (white with transparent background to stand out on blue background)
 logo: "logo-white.svg"
 
 
-# Theme works best with Kramdown (using the table of contents function)
-markdown: kramdown
-permalink: /blog/:year/:month/:title.html
-highlight: pygments
-excerpt_separator: "<!--more-->"
 include:
     - .htaccess
 exclude:
@@ -78,6 +43,7 @@ exclude:
     - README.md
     - INSTALL.md
     - Makefile
+    - vendor # for continuous integration
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
