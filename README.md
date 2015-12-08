@@ -2,24 +2,25 @@
 
 [![Build Status](https://travis-ci.org/swctasks/assets.svg?branch=gh-pages)](https://travis-ci.org/swctasks/assets)
 
-Serving assets (js, css, img) for Software Carpentry and Data Carpentry ecosystem.
+Serving assets (CSS, Javascript, images, and fonts) for Software Carpentry and Data Carpentry websites:
 
-## CSS
+*   [Software Carpentry website](https://github.com/swcarpentry/website)
+*   [Software Carpentry workshop template](https://github.com/swcarpentry/workshop-template)
+*   [Software Carpentry lesson template](https://github.com/swcarpentry/lesson-template)
+*   [Data Carpentry website](https://github.com/datacarpentry/datacarpentry.github.io)
 
-Here we have all necessary SCSS files to generate CSS files for :
+The [Software Carpentry lesson example](https://github.com/swcarpentry/lesson-example) and individual lessons can update their assets from the [Software Carpentry lesson template](https://github.com/swcarpentry/lesson-template) repository, or directly from this repository.
 
- - Software Carpentry
- - Software Carpentry - Workshop template
- - Software Carpentry - Lesson template
- - Software Carpentry - Lesson example
- - Data Carpentry
+## ./assets/css
 
-We also have a style guide that help see if everything is in place.
+Contains the `.scss` files used to generate the `.css` files that are then exported to the websites listed above.
 
-## JS
+## ./assets/js
 
-All js that are common to our ecosystem are stored here.
+All the Javascript.
 
-## Images
+## ./assets/img
 
-All images that are common to our ecosystem are stored here.
+Images that are used across multiple repositories.
+Since these are used in both Software Carpentry and Data Carpentry projects,
+the names of logos must include 'swc' or 'dc' to distinguish them.
