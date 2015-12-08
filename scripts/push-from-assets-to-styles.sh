@@ -34,7 +34,7 @@ if [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then
 
   #add, commit and push files
   git add -f .
-  git commit -m "Travis build $TRAVIS_BUILD_NUMBER from assets repository - after $TRAVIS_REPO_SLUG commit : $TRAVIS_COMMIT"
+  git commit -m "Travis build ${TRAVIS_BUILD_NUMBER} from assets repository - after ${TRAVIS_REPO_SLUG} commit : ${TRAVIS_COMMIT}"
   git push -fq origin gh-pages # > /dev/null
 
   echo -e "SUCCESS : Assets pushed to style repository\n"
