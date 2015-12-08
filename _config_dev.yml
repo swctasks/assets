@@ -7,9 +7,9 @@
 
 port: 8000
 
-url: 'http://localhost:8000'
+url: 'http://0.0.0.0:8000'
 filesurl: '/files'
-urlimg: 'http://localhost:8000/files/'
+urlimg: 'http://0.0.0.0:8000/files/'
 
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
