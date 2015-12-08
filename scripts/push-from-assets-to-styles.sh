@@ -28,8 +28,9 @@ if [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then
   # cd styles
 
   # remove assets from the clone before copying
+  # rm -rf ./assets
 
-  # cp -Rf $HOME/assets/* .
+  # cp -Rf $HOME/assets .
 
   #add, commit and push files
   #git add -f .
