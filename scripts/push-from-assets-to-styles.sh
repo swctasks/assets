@@ -17,24 +17,24 @@ if [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then
   #go to home and setup git
   cd $HOME
 
-  echo GIT_NAME: $GIT_NAME
-  echo GIT_EMAIL: $GIT_EMAIL
-
   git config --global user.email $GIT_EMAIL
   git config --global user.name $GIT_NAME
 
   #using token clone gh-pages branch
   # please note that some output is redirected to /dev/null to avoid leaking of decrypted token.
-  git clone --branch=gh-pages https://${GH_TOKEN}@github.com/swctasks/styles.git  styles # > /dev/null
+  # git clone --branch=gh-pages https://${GH_TOKEN}@github.com/swctasks/styles.git  styles # > /dev/null
 
   #go into directory and copy data we're interested in to that directory
-  cd styles
-  cp -Rf $HOME/assets/* .
+  # cd styles
+
+  # remove assets from the clone before copying
+
+  # cp -Rf $HOME/assets/* .
 
   #add, commit and push files
-  git add -f .
-  git commit -m "Travis build $TRAVIS_BUILD_NUMBER from assets repository"
-  git push -fq origin gh-pages # > /dev/null
+  #git add -f .
+  #git commit -m "Travis build $TRAVIS_BUILD_NUMBER from assets repository"
+  #git push -fq origin gh-pages # > /dev/null
 
-  echo -e "Done magic with assets\n"
+  echo -e "SUCCESS : Assets pushed to style repository\n"
 fi
