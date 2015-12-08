@@ -5,13 +5,13 @@ sitemap:
 ---
 @charset "utf-8";
 
-@import "functions.scss";
-@import "01_settings_colors.scss";
-@import "02_settings_typography.scss";
-@import "03_settings_mixins_media_queries.scss";
-@import "04_settings_global.scss";
+@import "swc/functions.scss";
+@import "swc/01_settings_colors.scss";
+@import "swc/02_settings_typography.scss";
+@import "swc/03_settings_mixins_media_queries.scss";
+@import "swc/04_settings_global.scss";
 
-@import "05_normalize.scss"; // normalize.css v3.0.2
+@import "swc/05_normalize.scss"; // normalize.css v3.0.2
 
 @import "foundation-components/top-bar";
 @import "foundation-components/accordion";
@@ -38,9 +38,9 @@ sitemap:
 @import "foundation-components/type";
 @import "foundation-components/visibility";
 
-@import "06_typography.scss";
-@import "07_layout.scss";
+@import "swc/06_typography.scss";
+@import "swc/07_layout.scss";
 @import "foundation-components/grid";
-@import "09_elements.scss";
+@import "swc/09_elements.scss";
 
-@import "11_syntax-highlighting.scss";
+@import "swc/11_syntax-highlighting.scss";
