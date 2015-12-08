@@ -1,4 +1,4 @@
-/* TOC – Typography 
+/* TOC – Typography
 
 Check typography variables › _3_typography_settings.scss
 
@@ -47,7 +47,7 @@ a:active {
 /* Customize Foundation Typography
 ------------------------------------------------------------------- */
 
-p { 
+p {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
@@ -234,9 +234,9 @@ blockquote {
     margin: 0 30px 30px 30px;
     color: #4b4b4d
 }
- 
+
     blockquote p {font-style: italic; color: $grey-10; }
- 
+
     blockquote:before {
         display:block;content:"\00BB";
         font-size:80px;
@@ -327,7 +327,7 @@ mark {
 .footnotes {
     margin-top: 60px;
 }
-.footnotes ol { 
+.footnotes ol {
     font-size: $font-size-small;
 }
 
@@ -339,11 +339,11 @@ mark {
 
 @font-face {
   font-family: 'iconfont';
-  src: url('../fonts/iconfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/iconfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/iconfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/iconfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../../fonts/iconfont.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/iconfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/iconfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/iconfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 .iconfont       { font-family: iconfont; }
