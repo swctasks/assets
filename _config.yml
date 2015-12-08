@@ -30,7 +30,7 @@ filesurl: '/files'
 urlimg: '/files/'
 
 # Logo image (white with transparent background to stand out on blue background)
-logo: "logo-white.svg"
+logo: "swc-logo-white.svg"
 
 
 include:
