@@ -1,20 +1,16 @@
 <div id="up-to-top" class="row">
   <div class="small-12 columns" style="text-align: right;">
     <a class="iconfont" href="#top-of-page">&#xf108;</a>
-  </div><!-- /.small-12.columns -->
-</div><!-- /.row -->
-
+  </div>
+</div>
 <footer class="main-footer shadow-black">
-
     <div class="row">
-
       <div class="medium-5 columns">
         <p>
           {{ site.description }}
-          <a href="{{ site.url }}{{ site.baseurl }}/about/">{{ site.data.language.more }}</a>
+          <a href="{{ site.baseurl }}/about">{{ site.data.language.more }}</a>
         </p>
       </div>
-
       <div class="medium-4 columns">
           <ul class="inline-list social-icons">
           {% for social_item in site.data.socialmedia %}
@@ -22,7 +18,6 @@
           {% endfor %}
           </ul>
       </div>
-
       <div class="medium-3 columns">
         <ul class="no-bullet shadow-black">
           {% for service_item in site.data.services %}
@@ -33,13 +28,5 @@
           {% endfor %}
         </ul>
       </div>
-
     </div>
-
-    <div class="row">
-      <div class="medium-12 columns">
-        <p class="credits">Site design: <a target="_blank" href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.</p>
-      </div>
-    </div>
-
 </footer>

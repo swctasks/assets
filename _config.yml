@@ -15,7 +15,7 @@ distantAssetsUrl: "http://swctasks.github.io"
 # path : "/styles"
 # NO TRAILING SLASH
 # Leave empty if assets are at the root of the domain
-distantAssetsPath: "/assets"
+distantAssetsPath: "/assets/assets"
 
 #############################################
 # End configuration
@@ -46,7 +46,7 @@ author: djacquel
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'http://swctasks.github.io/assets/'
-baseurl: ''
+baseurl: '/assets'
 
 # This URL is the base for referenced files.
 filesurl: '/files'
