@@ -6,6 +6,8 @@
 # Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
 
 url: 'http://0.0.0.0:4000'
+baseurl: ''
+
 filesurl: '/files'
 urlimg: 'http://0.0.0.0:4000/files/'
 
