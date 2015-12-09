@@ -270,60 +270,50 @@ h3.masthead {
 /* Footer
 ------------------------------------------------------------------- */
 
-#footer-content p,
-#footer-content li {
-    font-size: rem-calc(13);
-    font-weight: 300;
-}
-
-#footer {
+.main-footer{
     padding-top: 10px;
     padding-bottom: 0px;
     background: $footer-bg;
     color: $footer-color;
-    }
-
-    #footer a {
+    font-size: $base-font-size;
+    a{
         color: $footer-link-color;
+        font-weight: normal;
+        text-decoration: none;
+        border-bottom: 1px dotted $footer-color;
     }
-    #footer h4,
-    #footer h5 {
-        letter-spacing: 1px;
-        color: #fff;
-        text-transform: uppercase;
+    a:hover{
+        border-bottom: 1px solid $footer-color;
     }
+    .credits{
+        font-size: 0.9em;
+        a{
 
-
-
-/* Subfooter
-------------------------------------------------------------------- */
-
-
-    #footer-left ul.inline-list {
-        float: left;
-    }
-    #footer .credits a {
-        color: $footer-link-color;
-        border: 0;
-        text-transform: uppercase;
-        &:hover {
-            color: #fff;
         }
     }
+}
 
-    #footer .social-icons li a {
-        font-size: rem-calc(23);
-        display: block;
-        width: 36px;
-        border-radius: 50%;
-        color: $footer-bg;
-        background: $footer-color;
-        text-align: center;
+@media #{$medium-up} {
+    .social-icons{
+        margin-left: 1.4em;
+        margin-top: 5px;
     }
-    #footer .social-icons li a:hover {
-        background: $footer-bg;
-        color: #fff;
-    }
+}
+
+.social-icons a {
+    font-size: rem-calc(23);
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    color: $footer-bg;
+    background: $footer-color;
+    text-align: center;
+}
+
+.social-icons a:hover {
+    background: $footer-bg;
+    color: $footer-color;
+}
 
 
 
