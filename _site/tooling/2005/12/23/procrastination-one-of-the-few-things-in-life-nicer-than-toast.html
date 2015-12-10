@@ -1,0 +1,782 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head><!-- site.distantAssetsPath : /assets/assets - site.distantAssetsUrl : http://swctasks.github.io - site.fallbackAssets : --><!-- use DISTANT ASSETS  at http://swctasks.github.io/assets/assets -->
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Procrastination: One of the Few Things in Life Nicer Than Toast</title>
+	<link rel="stylesheet" type="text/css" href="http://swctasks.github.io/assets/assets/css/swc/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="http://swctasks.github.io/assets/assets/css/swc/swc.css" />
+	<script src="http://swctasks.github.io/assets/assets/js/modernizr.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+      }
+    });
+  </script>
+
+  <noscript>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Volkhov' rel='stylesheet' type='text/css' />
+  </noscript>
+
+  
+	
+	<meta name="description" content="Software Carpentry is volunteer non-profit organization dedicated to teaching basic computing skills to researchers." />
+
+	
+
+	<!-- Favicon/touch icons -->
+	<link rel="shortcut icon" href="/favicon.ico"> <!-- must remain in root directory -->
+	<link rel="icon" type="image/png" href="http://swctasks.github.io/assets/assets/img/swc/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="http://swctasks.github.io/assets/assets/img/swc/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="http://swctasks.github.io/assets/assets/img/swc/favicon-96x96.png" sizes="96x96">
+	<link rel="apple-touch-icon" sizes="57x57" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="http://swctasks.github.io/assets/assets/img/swc/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="http://swctasks.github.io/assets/assets/img/swc/android-chrome-192x192.png" sizes="192x192">
+	<link rel="manifest" href="http://swctasks.github.io/assets/assets/img/swc/manifest.json">
+	<link rel="mask-icon" href="http://swctasks.github.io/assets/assets/img/swc/safari-pinned-tab.svg" color="#293c92">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Facebook Optimization -->
+	<meta property="og:locale" content="en_EN" />
+	
+	<meta property="og:title" content="Procrastination: One of the Few Things in Life Nicer Than Toast" />
+	<meta property="og:description" content="Software Carpentry is volunteer non-profit organization dedicated to teaching basic computing skills to researchers." />
+	<meta property="og:url" content="http://swctasks.github.io/assets//assets//tooling/2005/12/23/procrastination-one-of-the-few-things-in-life-nicer-than-toast.html" />
+	<meta property="og:site_name" content="Style Guide" />
+	
+
+	
+
+	<!-- Search Engine Optimization -->
+	
+
+	<link type="text/plain" rel="author" href="http://swctasks.github.io/assets//assets/humans.txt" />
+
+	
+
+</head>
+<body id="top-of-page" class="page-fullwidth">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="http://swctasks.github.io/assets//assets"> Style Guide</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="right">
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="http://swctasks.github.io/assets//assets/contact/">Contact</a></li>
+
+            
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="http://swctasks.github.io/assets//assets/search/">Search</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+
+      <ul class="left">
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://swctasks.github.io/assets//assets/">Home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="http://swctasks.github.io/assets//assets/about/">About</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/about/">About Us</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/faq/">FAQ</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/conduct/">Code of Conduct</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/team/">Our Team</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/audience/">Our Audience</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/testimonials/">Testimonials</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="http://swctasks.github.io/assets//assets/scf/">Foundation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/scf/">Software Carpentry Foundation</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/scf/partners/">Our Partners</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/scf/join/">Become a Partner</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/scf/members/">Our Members</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/scf/history/">Our History</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="http://swctasks.github.io/assets//assets/workshops/">Workshops</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/workshops/">Our Workshops</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/conduct/">Code of Conduct</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/workshops/pitch/">Pitching a Workshop</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/workshops/request/">Request a Workshop</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/workshops/operations/">Workshop Operations</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/workshops/past/">Past Workshops</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="http://swctasks.github.io/assets//assets/lessons/">Lessons</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/lessons/">Our Lessons</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/license/">License</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/lessons/dashboard/">Development Dashboard</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/lessons/previous/">Previous Material</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="http://swctasks.github.io/assets//assets/join/">Get Involved</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/join/">Join Us</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/join/donate/">Donate</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/join/projects/">Related Projects</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/join/help/">Help Wanted</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/reading/">Reading Material</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="http://swctasks.github.io/assets//assets/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/blog/">Recent Posts</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/blog/archive/">Blog Archive</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/blog/categories/">Blog Posts by Category</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/blog/dates/">Blog Posts by Date</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://swctasks.github.io/assets//assets/commenting/">Commenting Policy</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+
+              
+                
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+<div id="masthead-no-image-header">
+	<div class="row">
+		<div class="small-6 columns">
+			<a id="logo" href="http://swctasks.github.io/assets/" title="Style Guide – A style guide for Software and Data Carpentries ecosystem">
+				<img src="http://swctasks.github.io/assets/assets/img/swc/swc-logo-white.svg" alt="Style Guide – A style guide for Software and Data Carpentries ecosystem">
+			</a>
+		</div>
+		<div class="small-6 columns">
+			<h3 class="masthead">Teaching basic lab skills<br/>for research computing</h3>
+		</div>
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+
+
+
+
+
+
+	<div class="row t30">
+  <div class="small-12 columns">
+    <article itemscope itemtype="http://schema.org/Article">
+      <header>
+        
+
+        <span itemprop="name">
+          
+          <h1>Procrastination: One of the Few Things in Life Nicer Than Toast</h1>
+        </span>
+      </header>
+
+
+      
+
+      <span itemprop="articleSection">
+      <p>I finished rewriting the build system for the <a href="http://www.software-carpentry.org">Software Carpentry</a> course notes yesterday.  Doing so was an extended form of procrastination: the system I built over the summer and used through the fall was adequate, but I wanted to clean a few things up, and then, well, I might as well make it easier for other instructors to add site-specific content, and make tables inclusions instead of inlining them, and mumble mumble mumble type type type...</p>
+<p>Of course, none of this has actually advanced the <em>content</em> of the course one whit.  I have over seventy tickets to close, ranging in size from making sure that a particular Make example does what I claim to rewriting the lecture on security.  And diagrams: no one was happy with the isometric ones created this term (not least because they're kind of fuzzy), so I have over a hundred diagrams to re-do. In a perfect world, they'd be ready before I teach at the IASSE in mid-January.  In this universe, I'll be happy if they're in place for the <a href="http://www.aaas.org/meetings/Annual_Meeting/02_PE/PE_06_Career_Workshops.shtml#EssentialSoftware">Essential Software Skills for Research Scientists</a> workshop at the <a href="http://www.aaas.org/meetings/Annual_Meeting/">AAAS Annual Meeting</a> on February 17.</p>
+<p>We all do this.  We all fold laundry instead of paying bills, or invent an antigravity drive when we're supposed to be studying for an Economics final.  (OK, maybe that was just me.)  But it seems particularly common among software developers, many of whom would rather spend two hours creating a new (not better, just new) serialization class hierarchy than take five minutes to center-align the titles at the top of the product's help page.  One of the characters in Mark Costello's Big If (reviewed here) is a prime example: his company desperately needs him to add some new monsters to a video game, so he spends a week adding shadows to clouds.</p>
+<p>But back to the build system... What I have is a set of XML files marked up with a homegrown tag set, and what I want is some HTML pages.  The files are organized into several directories: the main page is in the root, while all of the lectures are in <code>lec/</code>, and site-specific content is in sub-directories underneath <code>sites/</code>.  Each directory that contains source XML files may also contain <code>img/</code>, <code>inc/</code>, and <code>tbl/</code> sub-directories; in turn, each of those has one sub-directory for each of the source files, which holds images, sample code inclusions, and tables.</p>
+<p>The build system consists of the following tools:</p>
+<ol>
+<li>A 500-line Makefile in the root directory that drives everything else.  Roughly half of those lines are comments (which can be extracted and formatted as a wiki page to create on-line documentation).  This Makefile includes another file called <code>config.mk</code>, in which users must specify the lectures they want to include in the course.</li>
+<li>A Python script called <code>linkages.py</code> that scans the source files and builds a data structure that records such things as the order of lectures, where glossary terms are defined, the two-part numerical IDs of figures and tables, and so on. <code>linkages.py</code> writes this data structure directly to a file called <code>tmp/linkages.tmp.py</code>, which other tools then import.  Persisting the data structure directly saved me from having to mess around with parsers or serializers.  The clever bit (ahem) is that I only write it out if (a) the file doesn't already exist, or (b) the contents have changed.  That way, if I change a source file in a way that doesn't affect cross-linkages, Make doesn't do a lot of unnecessary rebuilding.</li>
+<li>Once the linkages file is up to date, <code>preprocess.py</code> kicks in.  This script creates copies of the source files under the <code>tmp/</code> directory (preserving the directory structure), and adds information to those copies to make XSLT's job easier.  Among other things, it:
+<ul>
+<li>adds a unique file ID, and the path to the root of the build, to the lecture's root element;</li>
+<li>copies content from table files into the lectures;</li>
+<li>adds citation information to bibliography references;</li>
+<li>does multi-column layout of length tables;</li>
+<li>inserts figure and table counter values (the "4.2" in "Figure 4.2");</li>
+<li>fills in cross-references between source files;</li>
+<li>replaces the <code>&lt;lecturelist/&gt;</code> element with a point-form list of links to lectures;</li>
+<li>fills in the <code>&lt;figlist&gt;</code> and <code>&lt;tbllist&gt;</code> tags with lists of figures and tables respectively;</li>
+<li>links terms in the glossary back to their first uses;</li>
+<li>inserts included program source files;</li>
+<li>links to external references;</li>
+<li>adds "previous" and "next" linkage information to lectures;</li>
+<li>generates a syllabus; and</li>
+<li>adds tracing information, such as file version numbers and the time the files were processed.</li>
+</ul>
+Each stage ought to be a filter of its own, and in fact I wrote them all that way to begin with.  However, launching fifteen or more copies of the Python interpreter for each source file made the build rather slow; doing the piping internally reduced the time per source file from eight or nine seconds to less than a second.</li>
+<li><code>util/individual.xsl</code> is an XSL script that translates the filled-in XML lecture file into HTML.  This script handles the outer skeleton directly, handing specific tasks like the bibliography and special lists to other XSL files that it includes.</li>
+<li>A Python script called <code>util/unify.py</code> and an XSL script called <code>util/unified.xsl</code> work together to create a single-page version of the whole course.  <code>unify.py</code> stitches the filled-in lecture files together; <code>unified.xsl</code> then applies the same transformations as <code>individual.xsl</code>, but formats hyperlinks differently (since they're all in-file).</li>
+<li>I use another Python script called <code>validate.py</code> to check the internal consistency of the source files.  Do any of them contain tabs or unprintable characters?  Do all the required images, source files, and tables exist?  I run this before checking in changes; it catches something about one time in five.</li>
+<li>And then there are the minor tools:
+<ul>
+<li><code>util/fixentities.py</code> replaces character entities with character codes (to work around a problem with Expat);</li>
+<li><code>util/wiki.py</code> extracts specially-formatted comments from Makefiles and XSL files, and docstrings from Python, to create wiki documentation pages; and</li>
+<li><code>util/revdtd.py</code> reverse engineers the actual DTD of either the source files, their filled-in counterparts, or the generated HTML files.</li>
+</ul>
+</li>
+</ol>
+<p>It's a lot of code; it was a lot of work; I'm pleased with how smoothly it all runs; and most of the time I spent building it should probably have gone into upgrading the actual content of the course. But small(ish) tasks are seductive: you can start work at 8:30, confident that you'll have something to show (even if only to yourself) by noon.  Editing course notes, well, the payoff is usually a long way away, and may not come at all: people who read through the first, flawed, version of the notes probably aren't going to come back and tell you how much better the second version is.</p>
+<p>That last observation is the key ingredient of my cure for procrastination: find some partners.  I am always more productive when I'm working with people than I am on my own.  Not only does a small team wander down fewer blind alleys than someone working alone, team members can keep each other honest, and give each other feedback and encouragement.  They can also appreciate just how big an accomplishment it is to have replaced all the a's and b's in twenty-eight short examples of list manipulation with the names of minerals, beetles, and mathematicians.</p>
+<p>It's now ten to eleven, and I've managed to fend off productivity for almost an hour.  Should I look on eBay for a <a href="http://www.wacom.com/en/Products/Cintiq.aspx">WACOM Cintiq</a> tablet that I can afford?  It'd make drawing diagrams <em>much</em> more fun.  Or maybe I should try <a href="http://somethingaboutorange.com/mrl/projects/nose/">Nose</a>: Miles Thibault says it's much friendlier than the unit testing framework in the Python standard library.  Hm... A cup of tea will probably help me decide.  A cup of tea, and a slice of toast with strawberry jam...</p>
+
+      </span>
+
+      
+      <div id="page-meta" class="t30">
+  <p>
+    
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name" class="pr20 icon-edit">Greg Wilson</span>
+    </span>
+    
+    
+    
+    <time class="icon-calendar pr20" datetime="2005-12-23" itemprop="datePublished"> 2005-12-23</time>
+    
+    
+    <span class="icon-archive pr20">TOOLING</span>
+    <br />
+    <span class="pr20"></span>
+  </p>
+  
+  <div id="post-nav" class="row">
+    <div class="small-5 columns">
+      
+      <a class="button small radius prev" href="http://swctasks.github.io/assets//content/2005/12/11/maintaining-correctness.html">&laquo; Maintaining Correctness</a>
+    </div>
+    
+    <div class="small-2 columns text-center">
+      <a class="radius button small" href="http://swctasks.github.io/assets//blog/archive/" title="Blog Archive">Archive</a>
+    </div>
+    <div class="small-5 columns text-right">
+      
+      <a class="button small radius next" href="http://swctasks.github.io/assets//content/2005/12/27/new-years-schedule-for-software-carpentry.html">New Year's Schedule for Software Carpentry &raquo;</a>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+      
+      			
+				<h3 id="comments" class="t60">Dialogue &amp; Discussion</h3>
+			
+			    <div id="disqus_thread"></div>
+			    <p align="center">
+			      You can review our commenting policy <a href="/assets/commenting/">here</a>.
+			    </p>
+			    <script type="text/javascript">
+			        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			        var disqus_shortname = ''; 
+			        var disqus_identifier = '/tooling/2005/12/23/procrastination-one-of-the-few-things-in-life-nicer-than-toast.html';
+
+			        /* * * DON'T EDIT BELOW THIS LINE * * */
+			        (function() {
+			            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			        })();
+			    </script>
+			    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			
+
+
+
+      
+    </article>
+  </div>
+</div>
+
+
+	
+	<div id="up-to-top" class="row">
+  <div class="small-12 columns" style="text-align: right;">
+    <a class="iconfont" href="#top-of-page">&#xf108;</a>
+  </div>
+</div>
+<footer class="main-footer shadow-black">
+    <div class="row">
+      <div class="medium-5 columns">
+        <p>
+          Software Carpentry is volunteer non-profit organization dedicated to teaching basic computing skills to researchers.
+          <a href="http://dev.software-carpentry.org/about">More ›</a>
+        </p>
+      </div>
+      <div class="medium-4 columns">
+          <ul class="inline-list social-icons">
+          
+          </ul>
+      </div>
+      <div class="medium-3 columns">
+        <ul class="no-bullet shadow-black">
+          
+        </ul>
+      </div>
+    </div>
+</footer>
+
+	
+
+	<script src="http://swctasks.github.io/assets/assets/js/javascript.min.js"></script>
+<script src="http://swctasks.github.io/assets/assets/js/bootstrap.tooltips.min.js"></script>
+
+<!-- Only include mapping stuff if we're going to draw a map -->
+
+<!-- page.map_url is "" -->
+<!-- page.map_element is "" -->
+
+
+<script>
+  $('p[data-toggle="tooltip"]').tooltip({html: true, placement: "bottom"});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

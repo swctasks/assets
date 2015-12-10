@@ -274,8 +274,19 @@ body.video cite { color: #fff; }
         text-transform: uppercase;
     }
 
-
-
+.social-icons li a {
+    font-size: rem-calc(23);
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    color: $footer-bg;
+    background: $footer-color;
+    text-align: center;
+}
+.social-icons li a:hover {
+    background: $footer-bg;
+    color: $footer-color;
+}
 /* Subfooter
 ------------------------------------------------------------------- */
 

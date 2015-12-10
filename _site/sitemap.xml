@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Pages: 13 links with priority=0.3, changefreq=monthly -->
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/about/</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/blog/archive/</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/blog/categories/</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/blog/dates/</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/blog/</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/license/</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/sitemap.xml</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/assets/css/dac/styles_feeling_responsive.css</loc>
+	
+		<lastmod>2015-12-10T14:59:42+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+
+
+<!-- Posts: 14 links with priority=0.5, changefreq=monthly -->
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/opinion/2005/12/28/67-million-a-year.html</loc>
+	
+		<lastmod>2005-12-28T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/content/2005/12/27/new-years-schedule-for-software-carpentry.html</loc>
+	
+		<lastmod>2005-12-27T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/tooling/2005/12/23/procrastination-one-of-the-few-things-in-life-nicer-than-toast.html</loc>
+	
+		<lastmod>2005-12-23T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/content/2005/12/11/maintaining-correctness.html</loc>
+	
+		<lastmod>2005-12-11T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/noticed/2005/12/09/american-scientist-article-on-software-carpentry.html</loc>
+	
+		<lastmod>2005-12-09T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/announcements/2005/12/08/executive-version-of-software-carpentry-course.html</loc>
+	
+		<lastmod>2005-12-08T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/community/2005/11/04/workshop-at-aaas-06.html</loc>
+	
+		<lastmod>2005-11-04T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/community/ebi%20cambridge/2005/09/21/software-carpentry-at-the-aaas.html</loc>
+	
+		<lastmod>2005-09-21T00:00:00+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/university%20of%20toronto/2005/09/20/day-9.html</loc>
+	
+		<lastmod>2005-09-20T00:00:00+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/university%20of%20toronto/2005/09/14/software-carpentry-first-meeting.html</loc>
+	
+		<lastmod>2005-09-14T00:00:00+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/indiana%20university/2005/08/22/software-carpentry-at-indiana-university.html</loc>
+	
+		<lastmod>2005-08-22T00:00:00+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/community/2005/07/29/software-carpentry-course-in-nature.html</loc>
+	
+		<lastmod>2005-07-29T00:00:00+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/content/2005/07/08/software-carpentry-notes-are-up.html</loc>
+	
+		<lastmod>2005-07-08T00:00:00+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://swctasks.github.io/assets//assets/python%20software%20foundation/2004/12/30/python-software-foundation-grant.html</loc>
+	
+		<lastmod>2004-12-30T00:00:00+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+
+</urlset>
