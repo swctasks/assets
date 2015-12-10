@@ -7,7 +7,7 @@
 ##
 ##############################################
 
-bundle exec jekyll build
+#bundle exec jekyll build
 
 DIR="$( pwd )"
 echo "Working from ${DIR}"
@@ -44,12 +44,12 @@ for repo in ${REPOS[@]}; do
     copyTo $repoPath
 done
 
-git add -f .
+git add -f --ignore-removal .
 git commit -m "Automatic commit after local update"
 git push -fq origin gh-pages
 
-cd ../assets
+#cd ../assets
 
-git add -f .
-git commit -m "Automatic commit after local update"
-git push -fq origin gh-pages
+#git add -f .
+#git commit -m "Automatic commit after local update"
+#git push -fq origin gh-pages
