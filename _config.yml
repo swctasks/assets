@@ -18,8 +18,12 @@ distantAssetsUrl: "http://swctasks.github.io"
 distantAssetsPath: "/assets/assets"
 
 #############################################
-# End configuration
+# External domain
 #############################################
+# This is used to build links to parent domain mainly in footer links
+ParentDomainUrl: "http://dev.software-carpentry.org"
+
+
 
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
@@ -31,10 +35,10 @@ distantAssetsPath: "/assets/assets"
 #                                                 /____/
 #
 # Title of your website
-title: "test"
+title: "Style Guide"
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "zzz"
+slogan: "A style guide for Software and Data Carpentries ecosystem"
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: "Software Carpentry is volunteer non-profit organization dedicated to teaching basic computing skills to researchers."

@@ -8,7 +8,7 @@
       <div class="medium-5 columns">
         <p>
           {{ site.description }}
-          <a href="{{ site.baseurl }}/about">{{ site.data.language.more }}</a>
+          <a href="{{ site.ParentDomainUrl }}/about">{{ site.data.language.more }}</a>
         </p>
       </div>
       <div class="medium-4 columns">
@@ -21,9 +21,8 @@
       <div class="medium-3 columns">
         <ul class="no-bullet shadow-black">
           {% for service_item in site.data.services %}
-            {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
-              <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-                <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+              <li>
+                <a href="{{ site.ParentDomainUrl }}{{ service_item.url }}"  title="{{ service_item.title }}">{{ service_item.name }}</a>
               </li>
           {% endfor %}
         </ul>
