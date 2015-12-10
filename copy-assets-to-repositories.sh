@@ -44,12 +44,12 @@ for repo in ${REPOS[@]}; do
     copyTo $repoPath
 done
 
+#git add -f --ignore-removal .
+#git commit -m "Automatic commit after local update"
+#git push -fq origin gh-pages
+
+cd ../assets
+
 git add -f --ignore-removal .
 git commit -m "Automatic commit after local update"
 git push -fq origin gh-pages
-
-#cd ../assets
-
-#git add -f .
-#git commit -m "Automatic commit after local update"
-#git push -fq origin gh-pages
